@@ -1,0 +1,44 @@
+{
+	"scopeName": "source.hiw",
+	"patterns": [
+	  {
+		"name": "comment.line.double-slash.hiw",
+		"begin": "//",
+		"end": "$"
+	  },
+	  {
+		"name": "keyword.control.hiw",
+		"match": "\\b(if|while|else|return)\\b"
+	  },
+	  {
+		"name": "keyword.define.hiw",
+		"match": "\\bdefine\\b"
+	  },
+	  {
+		"name": "entity.name.function.hiw",
+		"match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b(?=\\s*\\()"
+	  },
+	  {
+		"name": "punctuation.separator.parameters.hiw",
+		"match": ","
+	  },
+	  {
+		"name": "punctuation.terminator.statement.hiw",
+		"match": ";"
+	  },
+	  {
+		"name": "punctuation.section.block.begin.hiw",
+		"match": "\\{"
+	  },
+	  {
+		"name": "punctuation.section.block.end.hiw",
+		"match": "\\}"
+	  },
+	  {
+		"name": "keyword.macro.op.hiw",
+		"match": "\\bop!\\b"
+	  }
+	],
+	"repository": {},
+	"scopeName": "source.hiw"
+  }

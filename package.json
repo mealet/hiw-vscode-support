@@ -1,0 +1,30 @@
+{
+  "name": "hiw-language",
+  "displayName": "HIW",
+  "description": "HIW Language Syntax Support",
+  "version": "0.0.1",
+  "publisher": "mealet",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "hiw",
+        "aliases": ["HIW", "hiw"],
+        "extensions": [".hiw"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "hiw",
+        "scopeName": "source.hiw",
+        "path": "./syntaxes/hiw.tmLanguage.json"
+      }
+    ]
+  }
+}

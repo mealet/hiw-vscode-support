@@ -4,12 +4,14 @@
   "description": "HIW Language Syntax Support",
   "version": "0.0.1",
   "publisher": "mealet",
+  "repository": "https://github.com/mealet/hiw-vscode-support",
   "engines": {
     "vscode": "^1.60.0"
   },
   "categories": [
     "Programming Languages"
   ],
+  "icon": "logo.png",
   "contributes": {
     "languages": [
       {

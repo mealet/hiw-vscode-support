@@ -3,6 +3,6 @@ HIW (Hey, It Works) - compiling programming language powered by [mealet](https:/
 
 ## Links
 
-Author - https://github.com/mealet
-HIW Compiler - https://github.com/mealet/hiw
-Extensions - https://github.com/mealet/hiw-vscode-support
+Author - https://github.com/mealet <br>
+HIW Compiler - https://github.com/mealet/hiw <br>
+Extensions - https://github.com/mealet/hiw-vscode-support <br>

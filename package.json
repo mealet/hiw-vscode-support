@@ -1,8 +1,8 @@
 {
   "name": "hiw-language",
-  "displayName": "HIW",
-  "description": "HIW Language Syntax Support",
-  "version": "0.0.1",
+  "displayName": "hiw-lang",
+  "description": "hiw-lang Syntax Support",
+  "version": "0.0.3",
   "publisher": "mealet",
   "repository": "https://github.com/mealet/hiw-vscode-support",
   "engines": {
@@ -16,7 +16,7 @@
     "languages": [
       {
         "id": "hiw",
-        "aliases": ["HIW", "hiw"],
+        "aliases": ["hiw-lang", "hiw"],
         "extensions": [".hiw"],
         "configuration": "./language-configuration.json"
       }

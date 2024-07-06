@@ -8,7 +8,7 @@
 	  },
 	  {
 		"name": "keyword.control.hiw",
-		"match": "\\b(if|while|else|return)\\b"
+		"match": "\\b(if|while|for|else|return|using)\\b"
 	  },
 	  {
 		"name": "keyword.define.hiw",
@@ -37,8 +37,19 @@
 	  {
 		"name": "keyword.macro.op.hiw",
 		"match": "\\bop!\\b"
+	  },
+	  {
+		"name": "string.quoted.double.hiw",
+		"begin": "\"",
+		"end": "\"",
+		"patterns": [
+		  {
+			"name": "constant.character.escape.hiw",
+			"match": "\\\\."
+		  }
+		]
 	  }
 	],
-	"repository": {},
-	"scopeName": "source.hiw"
+	"repository": {}
   }
+  

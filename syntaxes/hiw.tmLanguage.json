@@ -11,6 +11,10 @@
 		"match": "\\b(if|while|for|else|return|using)\\b"
 	  },
 	  {
+		"name": "keyword.in-out.hiw",
+		"match": "\\b(print|input)\\b"
+	  },
+	  {
 		"name": "keyword.define.hiw",
 		"match": "\\bdefine\\b"
 	  },
